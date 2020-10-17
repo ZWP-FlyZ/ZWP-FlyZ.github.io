@@ -5,30 +5,32 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 <meta name="theme-color" content="#222">
 <meta name="generator" content="Hexo 5.2.0">
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
-  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-32.png">
+  <link rel="mask-icon" href="/images/favicon-32.svg" color="#222">
 
 <link rel="stylesheet" href="/css/main.css">
 
 
 <link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+  <link rel="stylesheet" href="/lib/pace/pace-theme-minimal.min.css">
+  <script src="/lib/pace/pace.min.js"></script>
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":true,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+    var CONFIG = {"hostname":"example.com","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":true,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":2,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="Hi ZWP这是一段文字,123123red">
+  <meta name="description" content="Hi ZWP这是一段文字,123123red $$\begin{equation} \label{eq1}e&#x3D;mc^2\end{equation}$$">
 <meta property="og:type" content="article">
 <meta property="og:title" content="hi zwp">
 <meta property="og:url" content="http://example.com/2020/10/17/hi-zwp/index.html">
 <meta property="og:site_name" content="FlyZ&#39;s Blog">
-<meta property="og:description" content="Hi ZWP这是一段文字,123123red">
+<meta property="og:description" content="Hi ZWP这是一段文字,123123red $$\begin{equation} \label{eq1}e&#x3D;mc^2\end{equation}$$">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2020-10-17T01:56:08.000Z">
-<meta property="article:modified_time" content="2020-10-17T10:28:09.389Z">
+<meta property="article:modified_time" content="2020-10-17T11:00:50.919Z">
 <meta property="article:author" content="FlyZ">
 <meta property="article:tag" content="E">
 <meta property="article:tag" content="Z">
@@ -94,14 +96,17 @@
     </div>
   </div>
 
-  <div class="site-meta">
+  <div class="site-meta custom-logo">
 
     <a href="/" class="brand" rel="start">
       <span class="logo-line-before"><i></i></span>
       <h1 class="site-title">FlyZ's Blog</h1>
       <span class="logo-line-after"><i></i></span>
     </a>
-      <p class="site-subtitle" itemprop="description">Record & Share</p>
+      <p class="site-subtitle" itemprop="description">Learn & Record & Share</p>
+      <a>
+        <img class="custom-logo-image" src="/images/logo-white.png" alt="FlyZ's Blog">
+      </a>
   </div>
 
   <div class="site-nav-right">
@@ -131,6 +136,11 @@
     <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
 
   </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
         <li class="menu-item menu-item-about">
 
     <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
@@ -151,18 +161,21 @@
   <span class="search-icon">
     <i class="fa fa-search"></i>
   </span>
-  <div class="search-input-container"></div>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
   <span class="popup-btn-close">
     <i class="fa fa-times-circle"></i>
   </span>
 </div>
-<div class="algolia-results">
-  <div id="algolia-stats"></div>
-  <div id="algolia-hits"></div>
-  <div id="algolia-pagination" class="algolia-pagination"></div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
 </div>
 
-      
     </div>
   </div>
 
@@ -188,7 +201,7 @@
     <link itemprop="mainEntityOfPage" href="http://example.com/2020/10/17/hi-zwp/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="image" content="/images/avatar.jpg">
       <meta itemprop="name" content="FlyZ">
       <meta itemprop="description" content="记录与分享个人成长">
     </span>
@@ -209,7 +222,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2020-10-17 09:56:08 / 修改时间：18:28:09" itemprop="dateCreated datePublished" datetime="2020-10-17T09:56:08+08:00">2020-10-17</time>
+              <time title="创建时间：2020-10-17 09:56:08 / 修改时间：19:00:50" itemprop="dateCreated datePublished" datetime="2020-10-17T09:56:08+08:00">2020-10-17</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -237,6 +250,7 @@
 
       
         <h1 id="Hi-ZWP"><a href="#Hi-ZWP" class="headerlink" title="Hi ZWP"></a>Hi ZWP</h1><p>这是一段文字,<span class="red">123123red</span></p>
+<p>$$\begin{equation} \label{eq1}<br>e=mc^2<br>\end{equation}$$</p>
 
     </div>
 
@@ -245,9 +259,10 @@
     
 
       <footer class="post-footer">
+          
           <div class="post-tags">
-              <a href="/tags/E/" rel="tag"># E</a>
-              <a href="/tags/Z/" rel="tag"># Z</a>
+              <a href="/tags/E/" rel="tag"><i class="fa fa-tag"></i> E</a>
+              <a href="/tags/Z/" rel="tag"><i class="fa fa-tag"></i> Z</a>
           </div>
 
         
@@ -325,7 +340,7 @@
       <div class="site-overview-wrap sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
     <img class="site-author-image" itemprop="image" alt="FlyZ"
-      src="/images/avatar.png">
+      src="/images/avatar.jpg">
   <p class="site-author-name" itemprop="name">FlyZ</p>
   <div class="site-description" itemprop="description">记录与分享个人成长</div>
 </div>
@@ -346,6 +361,7 @@
       </div>
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
+          
         <span class="site-state-item-count">3</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
@@ -389,7 +405,7 @@
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">这些都由可爱的FlyZ整理而成哦！╰(￣ω￣ｏ)</span>
+  <span class="author" itemprop="copyrightHolder">这些可是由可爱的FlyZ整理而成的哦！*(੭*ˊᵕˋ)੭*ଘ</span>
 </div>
 
         
@@ -429,10 +445,7 @@
 
 
   
-<script src="//cdn.jsdelivr.net/npm/algoliasearch@4/dist/algoliasearch-lite.umd.js"></script>
-<script src="//cdn.jsdelivr.net/npm/instantsearch.js@4/dist/instantsearch.production.min.js"></script>
-<script src="/js/algolia-search.js"></script>
-
+<script src="/js/local-search.js"></script>
 
 
 
@@ -447,6 +460,61 @@
 
 
   
+
+  
+      
+
+<script>
+  if (typeof MathJax === 'undefined') {
+    window.MathJax = {
+      loader: {
+        source: {
+          '[tex]/amsCd': '[tex]/amscd',
+          '[tex]/AMScd': '[tex]/amscd'
+        }
+      },
+      tex: {
+        inlineMath: {'[+]': [['$', '$']]},
+        tags: 'ams'
+      },
+      options: {
+        renderActions: {
+          findScript: [10, doc => {
+            document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
+              const display = !!node.type.match(/; *mode=display/);
+              const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+              const text = document.createTextNode('');
+              node.parentNode.replaceChild(text, node);
+              math.start = {node: text, delim: '', n: 0};
+              math.end = {node: text, delim: '', n: 0};
+              doc.math.push(math);
+            });
+          }, '', false],
+          insertedScript: [200, () => {
+            document.querySelectorAll('mjx-container').forEach(node => {
+              let target = node.parentNode;
+              if (target.nodeName.toLowerCase() === 'li') {
+                target.parentNode.classList.add('has-jax');
+              }
+            });
+          }, '', false]
+        }
+      }
+    };
+    (function () {
+      var script = document.createElement('script');
+      script.src = '//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js';
+      script.defer = true;
+      document.head.appendChild(script);
+    })();
+  } else {
+    MathJax.startup.document.state(0);
+    MathJax.texReset();
+    MathJax.typeset();
+  }
+</script>
+
+    
 
   
 
