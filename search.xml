@@ -3,48 +3,72 @@
   <entry>
     <title>欢迎来到FlyZ的知识空间</title>
     <url>/2020/10/17/index/</url>
-    <content><![CDATA[<h1 id="1-简介"><a href="#1-简介" class="headerlink" title="1.简介"></a>1.简介</h1><p>在这里我将分享我的技术学习和个人成长的经历。有各种学习笔记也有前后端的开发经历，期待与各位进行交流！</p>
-<p>文档库发布Github与Gitee中</p>
+    <content><![CDATA[<h1 id="x1f31f-简介-x1f31f"><a href="#x1f31f-简介-x1f31f" class="headerlink" title="&#x1f31f;简介&#x1f31f;"></a><span class="emoji" alias="star2" style="" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f31f.png?v8">&#x1f31f;</span>简介<span class="emoji" alias="star2" style="" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f31f.png?v8">&#x1f31f;</span></h1><p>在这里我将分享我的技术学习和个人成长的经历。有各种学习笔记也有前后端的开发经历，期待与各位进行交流！</p>
+<p>文档库发布Github与Gitee中，可选择任意地址查阅</p>
 <blockquote>
 <p>Github: <a href="https://zwp-flyz.github.io/">https://zwp-flyz.github.io/</a></p>
 <p>Gitee: <a href="https://zwp-flyz.gitee.io/">https://zwp-flyz.gitee.io/</a></p>
 </blockquote>
-<h1 id="2-内容结构"><a href="#2-内容结构" class="headerlink" title="2.内容结构"></a>2.内容结构</h1><p>该文档库规定以下<a href="categories/">分类</a>,在以后内容扩充过程中逐渐完善,具体的涉及内容用<a href="tags/">标签</a>表示.</p>
-<ul>
-<li>个人博客<ul>
-<li>Hexo框架, </li>
-<li>NexT主题</li>
-<li>…</li>
-</ul>
-</li>
-<li>Java技术<ul>
-<li>JVM虚拟机</li>
-<li>内存模型</li>
-<li>GC机制</li>
-<li>…</li>
-</ul>
-</li>
-<li>Spring<ul>
-<li>IoC</li>
-<li>AOP</li>
-<li>…</li>
-</ul>
-</li>
-<li>Spring MVC<ul>
-<li>…</li>
-</ul>
-</li>
-<li>MySQL</li>
-<li>项目设计<ul>
-<li>秒杀系统</li>
-<li>Travel Memories</li>
-</ul>
-</li>
-<li>技术踩坑<ul>
-<li>abc</li>
-</ul>
-</li>
-</ul>
+<h1 id="内容结构"><a href="#内容结构" class="headerlink" title="内容结构"></a>内容结构</h1><p>该文档库规定以下<a href="categories/">分类</a>，在以后内容扩充过程中逐渐完善，具体的涉及内容用<a href="tags/">标签</a>定位。</p>
+<table>
+<thead>
+<tr>
+<th align="center">类别</th>
+<th>分类</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">个人博客</td>
+<td>Hexo框架、NexT主题…</td>
+</tr>
+<tr>
+<td align="center">JVM</td>
+<td>GC、内存模型、字节码…</td>
+</tr>
+<tr>
+<td align="center">Java</td>
+<td>Lambda表达式、Java IO、Stream流操作、线程、线程池…</td>
+</tr>
+<tr>
+<td align="center">Spring</td>
+<td>Spring Core、Spring AOP、Spring MVC、Spring Boot…</td>
+</tr>
+<tr>
+<td align="center">Web技术</td>
+<td>Web容器、Servlet…</td>
+</tr>
+<tr>
+<td align="center">缓存</td>
+<td>Redis…</td>
+</tr>
+<tr>
+<td align="center">持久层框架</td>
+<td>MySQL、Mybatis、Druid…</td>
+</tr>
+<tr>
+<td align="center">中间件</td>
+<td>消息队列…</td>
+</tr>
+<tr>
+<td align="center">分布式与微服务</td>
+<td>分布式缓存，读写一致性分析…</td>
+</tr>
+<tr>
+<td align="center">运维与测试技术</td>
+<td>Nginx、YApi</td>
+</tr>
+<tr>
+<td align="center">前端技术</td>
+<td>Vue、React、ElementUI、AntD…</td>
+</tr>
+<tr>
+<td align="center">技术实践</td>
+<td>Travel Memories，秒杀系统…</td>
+</tr>
+</tbody></table>
+<a id="more"></a>
+
+<h1 id="其他内容"><a href="#其他内容" class="headerlink" title="其他内容"></a>其他内容</h1><p>为本仓库设计的favicon与logo，请勿用于商业用途。</p>
 ]]></content>
       <tags>
         <tag>主页</tag>
