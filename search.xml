@@ -1,9 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>NexT主题常用内容</title>
+    <url>/2020/10/18/NexT-config/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>个人博客</category>
+        <category>NexT主题</category>
+      </categories>
+      <tags>
+        <tag>NexT配置</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>NexT主题</title>
     <url>/2020/10/18/NexT/</url>
-    <content><![CDATA[]]></content>
+    <content><![CDATA[<h1 id="NexT主题"><a href="#NexT主题" class="headerlink" title="NexT主题"></a>NexT主题</h1><p><a href="https://imgchr.com/i/0jtj6H"><img src="https://s1.ax1x.com/2020/10/18/0jtj6H.png" alt="0jtj6H.png" style="zoom: 33%;" /></a></p>
+<h2 id="基础"><a href="#基础" class="headerlink" title="基础"></a>基础</h2><p>NexT是一款基于Hexo静态网页框架的主题，提供4种样式选择，支持多种插件丰富功能。</p>
+<p>github：<a href="https://github.com/next-theme/hexo-theme-next">https://github.com/next-theme/hexo-theme-next</a></p>
+<p>文档地址：<a href="https://theme-next.js.org/">https://theme-next.js.org/</a></p>
+<p>配置说明：<a href="https://theme-next.js.org/docs/theme-settings/">https://theme-next.js.org/docs/theme-settings/</a></p>
+<a id="more"></a>
+
+<p><strong>安装环境</strong></p>
+<blockquote>
+<p>npm 8.0.0+</p>
+<p>hexo 4.0.0+</p>
+</blockquote>
+<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><h3 id="NPM方式"><a href="#NPM方式" class="headerlink" title="NPM方式"></a>NPM方式</h3><p>进入Blog文件夹中，执行</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-theme-next</span><br></pre></td></tr></table></figure>
+
+<h3 id="GIT方式"><a href="#GIT方式" class="headerlink" title="GIT方式"></a>GIT方式</h3><p>进入Blog/themes文件夹中，执行</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/next-theme/hexo-theme-next</span><br></pre></td></tr></table></figure>
+
+<p>两种方式任选一种，通过npm方式安装的主题目录在<code>node_models</code>文件夹中，后者在<code>themes</code>文件夹中</p>
+<h3 id="激活NexT主题"><a href="#激活NexT主题" class="headerlink" title="激活NexT主题"></a>激活NexT主题</h3><p>在Blog下的config.yml配置文件中设置theme属性：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">theme:</span> <span class="string">next</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="配置设置"><a href="#配置设置" class="headerlink" title="配置设置"></a>配置设置</h2><p>在NexT主题也有一个config.yml配置文件，为了更合理的激活主题的配置，可以将node_models或者themes中对应的NexT主题文件夹下的<strong>config.yml</strong>文件改名为<strong>config.next.yml</strong>，并复制到Blog文件夹下，当需要设置主题的样式和功能是可以更改<strong>config.next.yml</strong>文件。</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Installed through npm</span></span><br><span class="line">cp node_modules/hexo-theme-next/_config.yml _config.next.yml</span><br><span class="line"><span class="comment"># Installed through Git</span></span><br><span class="line">cp theme/next/_config.yml _config.next.yml</span><br></pre></td></tr></table></figure>]]></content>
       <categories>
         <category>个人博客</category>
         <category>NexT主题</category>
@@ -20,7 +57,7 @@
 
 <a id="more"></a>
 
-<h2 id="设置deploy选项"><a href="#设置deploy选项" class="headerlink" title="设置deploy选项"></a>设置deploy选项</h2><p>当需要将编译后的Blog部署目标发布到Github或者Gitee的pages中，可以在更改_config.yml的deploy属性：</p>
+<h2 id="设置deploy选项"><a href="#设置deploy选项" class="headerlink" title="设置deploy选项"></a>设置deploy选项</h2><p>当需要将编译后的Blog部署目标发布到Github或者Gitee的pages中，可以在更改_config.yml的deploy属性。可以同时设置多个发布源，多个发布源依次发布</p>
 <ol>
 <li><p>首先在Blog目录中安装插件</p>
  <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
