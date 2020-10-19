@@ -50,50 +50,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Hexo框架常用内容</title>
-    <url>/2020/10/18/hexo-config/</url>
-    <content><![CDATA[<h1 id="Hexo常用内容"><a href="#Hexo常用内容" class="headerlink" title="Hexo常用内容"></a>Hexo常用内容</h1><p>在Blog工程中存在一个<code>_config.yml</code>配置文件，里面包含了对该Blog项目的基础性配置，详细配置说明可在<a href="https://hexo.io/docs/configuration#Using-an-Alternate-Config">官网</a>中查询。</p>
-<h2 id="基础信息配置"><a href="#基础信息配置" class="headerlink" title="基础信息配置"></a>基础信息配置</h2><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">title:</span> <span class="string">FlyZ&#x27;s</span> <span class="string">Blog</span> </span><br><span class="line"><span class="attr">subtitle:</span> <span class="string">&#x27;Learn &amp; Record &amp; Share&#x27;</span></span><br><span class="line"><span class="attr">description:</span> <span class="string">&#x27;记录与分享个人成长&#x27;</span></span><br><span class="line"><span class="attr">keywords:</span> [<span class="string">&#x27;技术&#x27;</span>,<span class="string">&#x27;生活&#x27;</span>]</span><br><span class="line"><span class="attr">author:</span> <span class="string">FlyZ</span></span><br><span class="line"><span class="attr">language:</span> <span class="string">zh-CN</span> <span class="comment"># 中文模式</span></span><br></pre></td></tr></table></figure>
-
-<a id="more"></a>
-
-<h2 id="设置deploy选项"><a href="#设置deploy选项" class="headerlink" title="设置deploy选项"></a>设置deploy选项</h2><p>当需要将编译后的Blog部署目标发布到Github或者Gitee的pages中，可以在更改_config.yml的deploy属性。可以同时设置多个发布源，多个发布源依次发布</p>
-<ol>
-<li><p>首先在Blog目录中安装插件</p>
- <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>更改Hexo的配置文件</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line"> <span class="attr">repo:</span> <span class="string">&lt;repository</span> <span class="string">url&gt;</span> <span class="comment"># https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io</span></span><br><span class="line">  <span class="attr">branch:</span> [<span class="string">branch</span>]</span><br><span class="line">  <span class="attr">message:</span> [<span class="string">message</span>]</span><br></pre></td></tr></table></figure>
-
-
-</li>
-</ol>
-<p>此外deploy也支持ftp等多种部署配置方式，详细设置可以看<a href="https://hexo.io/docs/one-command-deployment">部署文档</a>。</p>
-<p>当设置好发布选项后，可以用进行构建并发布（在构建前建议清空缓存）。</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean &amp; hexo g -d</span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="文档置顶"><a href="#文档置顶" class="headerlink" title="文档置顶"></a>文档置顶</h2><p>在一个MD文件的头信息中添加<code>sticky: order </code>属性，<strong>order属性大于0</strong>即可实现置顶效果。</p>
-<h2 id="标签插件"><a href="#标签插件" class="headerlink" title="标签插件"></a>标签插件</h2><p>hexo提供一些插件用于显示高级样式，例如视频、引用块插件使用方法。更多插件使用方法可参考<a href="https://hexo.io/zh-cn/docs/tag-plugins">插件文档</a>。</p>
-<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">&#123;% blockquote David Levithan, Wide Awake %&#125;</span><br><span class="line">Do not just seek happiness for yourself. Seek happiness for all. Through kindness. Through mercy.</span><br><span class="line">&#123;% endblockquote %&#125;</span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="内容截断"><a href="#内容截断" class="headerlink" title="内容截断"></a>内容截断</h2><p>当文本内容太长可以在文档合适的位置添加<code>&lt;!-- more --&gt;</code>标签截断，在主页等地方显示该条内容是会显示更多按钮。</p>
-<h2 id="主题切换"><a href="#主题切换" class="headerlink" title="主题切换"></a>主题切换</h2><p>首先themes文件夹下下载一款合适的主题，然后在config.yml配置文件中更改主题名字<code>theme: &lt;theme-name&gt;</code>。</p>
-<p>通常新下载的主题也包含一个config.yml用于配置主题的功能，可以将其复制到Blog文件下并更名为config.&lt;theme-name&gt;.yml文件。</p>
-<p>hexo支持的常用主题下载地址： <a href="https://hexo.io/themes/">https://hexo.io/themes/</a></p>
-]]></content>
-      <categories>
-        <category>个人博客</category>
-        <category>Hexo框架</category>
-      </categories>
-      <tags>
-        <tag>Hexo设置</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo框架</title>
     <url>/2020/10/18/hexo/</url>
     <content><![CDATA[<h1 id="Hexo博客部署"><a href="#Hexo博客部署" class="headerlink" title="Hexo博客部署"></a>Hexo博客部署</h1><h2 id="基础"><a href="#基础" class="headerlink" title="基础"></a>基础</h2><p>hexo是一个基于NodeJs的，可以快速搭建博客的框架。可以通过设置不同Theme和安装各种插件实现个性化博客站点的功能，它能识别Markdown语言并渲染成静态网页。</p>
@@ -140,6 +96,50 @@
       </categories>
       <tags>
         <tag>Hexo框架</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo框架常用内容</title>
+    <url>/2020/10/18/hexo-config/</url>
+    <content><![CDATA[<h1 id="Hexo常用内容"><a href="#Hexo常用内容" class="headerlink" title="Hexo常用内容"></a>Hexo常用内容</h1><p>在Blog工程中存在一个<code>_config.yml</code>配置文件，里面包含了对该Blog项目的基础性配置，详细配置说明可在<a href="https://hexo.io/docs/configuration#Using-an-Alternate-Config">官网</a>中查询。</p>
+<h2 id="基础信息配置"><a href="#基础信息配置" class="headerlink" title="基础信息配置"></a>基础信息配置</h2><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">title:</span> <span class="string">FlyZ&#x27;s</span> <span class="string">Blog</span> </span><br><span class="line"><span class="attr">subtitle:</span> <span class="string">&#x27;Learn &amp; Record &amp; Share&#x27;</span></span><br><span class="line"><span class="attr">description:</span> <span class="string">&#x27;记录与分享个人成长&#x27;</span></span><br><span class="line"><span class="attr">keywords:</span> [<span class="string">&#x27;技术&#x27;</span>,<span class="string">&#x27;生活&#x27;</span>]</span><br><span class="line"><span class="attr">author:</span> <span class="string">FlyZ</span></span><br><span class="line"><span class="attr">language:</span> <span class="string">zh-CN</span> <span class="comment"># 中文模式</span></span><br></pre></td></tr></table></figure>
+
+<a id="more"></a>
+
+<h2 id="设置deploy选项"><a href="#设置deploy选项" class="headerlink" title="设置deploy选项"></a>设置deploy选项</h2><p>当需要将编译后的Blog部署目标发布到Github或者Gitee的pages中，可以在更改_config.yml的deploy属性。可以同时设置多个发布源，多个发布源依次发布</p>
+<ol>
+<li><p>首先在Blog目录中安装插件</p>
+ <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>更改Hexo的配置文件</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line"> <span class="attr">repo:</span> <span class="string">&lt;repository</span> <span class="string">url&gt;</span> <span class="comment"># https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io</span></span><br><span class="line">  <span class="attr">branch:</span> [<span class="string">branch</span>]</span><br><span class="line">  <span class="attr">message:</span> [<span class="string">message</span>]</span><br></pre></td></tr></table></figure>
+
+
+</li>
+</ol>
+<p>此外deploy也支持ftp等多种部署配置方式，详细设置可以看<a href="https://hexo.io/docs/one-command-deployment">部署文档</a>。</p>
+<p>当设置好发布选项后，可以用进行构建并发布（在构建前建议清空缓存）。</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean &amp; hexo g -d</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="文档置顶"><a href="#文档置顶" class="headerlink" title="文档置顶"></a>文档置顶</h2><p>在一个MD文件的头信息中添加<code>sticky: order </code>属性，<strong>order属性大于0</strong>即可实现置顶效果。</p>
+<h2 id="标签插件"><a href="#标签插件" class="headerlink" title="标签插件"></a>标签插件</h2><p>hexo提供一些插件用于显示高级样式，例如视频、引用块插件使用方法。更多插件使用方法可参考<a href="https://hexo.io/zh-cn/docs/tag-plugins">插件文档</a>。</p>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">&#123;% blockquote David Levithan, Wide Awake %&#125;</span><br><span class="line">Do not just seek happiness for yourself. Seek happiness for all. Through kindness. Through mercy.</span><br><span class="line">&#123;% endblockquote %&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="内容截断"><a href="#内容截断" class="headerlink" title="内容截断"></a>内容截断</h2><p>当文本内容太长可以在文档合适的位置添加<code>&lt;!-- more --&gt;</code>标签截断，在主页等地方显示该条内容是会显示更多按钮。</p>
+<h2 id="主题切换"><a href="#主题切换" class="headerlink" title="主题切换"></a>主题切换</h2><p>首先themes文件夹下下载一款合适的主题，然后在config.yml配置文件中更改主题名字<code>theme: &lt;theme-name&gt;</code>。</p>
+<p>通常新下载的主题也包含一个config.yml用于配置主题的功能，可以将其复制到Blog文件下并更名为config.&lt;theme-name&gt;.yml文件。</p>
+<p>hexo支持的常用主题下载地址： <a href="https://hexo.io/themes/">https://hexo.io/themes/</a></p>
+]]></content>
+      <categories>
+        <category>个人博客</category>
+        <category>Hexo框架</category>
+      </categories>
+      <tags>
+        <tag>Hexo设置</tag>
       </tags>
   </entry>
   <entry>
