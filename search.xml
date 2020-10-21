@@ -44,43 +44,6 @@
       </tags>
   </entry>
   <entry>
-    <title>NexT主题</title>
-    <url>/2020/10/18/NexT/</url>
-    <content><![CDATA[<h1 id="NexT主题"><a href="#NexT主题" class="headerlink" title="NexT主题"></a>NexT主题</h1><p><a href="https://imgchr.com/i/0jtj6H"><img src="https://s1.ax1x.com/2020/10/18/0jtj6H.png" alt="0jtj6H.png" style="zoom: 33%;" /></a></p>
-<h2 id="基础"><a href="#基础" class="headerlink" title="基础"></a>基础</h2><p>NexT是一款基于Hexo静态网页框架的主题，提供4种样式选择，支持多种插件丰富功能。</p>
-<p>github：<a href="https://github.com/next-theme/hexo-theme-next">https://github.com/next-theme/hexo-theme-next</a></p>
-<p>文档地址：<a href="https://theme-next.js.org/">https://theme-next.js.org/</a></p>
-<p>配置说明：<a href="https://theme-next.js.org/docs/theme-settings/">https://theme-next.js.org/docs/theme-settings/</a></p>
-<a id="more"></a>
-
-<p><strong>安装环境</strong></p>
-<blockquote>
-<p>npm 8.0.0+</p>
-<p>hexo 4.0.0+</p>
-</blockquote>
-<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><h3 id="NPM方式"><a href="#NPM方式" class="headerlink" title="NPM方式"></a>NPM方式</h3><p>进入Blog文件夹中，执行</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-theme-next</span><br></pre></td></tr></table></figure>
-
-<h3 id="GIT方式"><a href="#GIT方式" class="headerlink" title="GIT方式"></a>GIT方式</h3><p>进入Blog/themes文件夹中，执行</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/next-theme/hexo-theme-next</span><br></pre></td></tr></table></figure>
-
-<p>两种方式任选一种，通过npm方式安装的主题目录在<code>node_models</code>文件夹中，后者在<code>themes</code>文件夹中</p>
-<h3 id="激活NexT主题"><a href="#激活NexT主题" class="headerlink" title="激活NexT主题"></a>激活NexT主题</h3><p>在Blog下的config.yml配置文件中设置theme属性：</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">theme:</span> <span class="string">next</span></span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="配置设置"><a href="#配置设置" class="headerlink" title="配置设置"></a>配置设置</h2><p>在NexT主题也有一个config.yml配置文件，为了更合理的激活主题的配置，可以将node_models或者themes中对应的NexT主题文件夹下的<strong>config.yml</strong>文件改名为<strong>config.next.yml</strong>，并复制到Blog文件夹下，当需要设置主题的样式和功能是可以更改<strong>config.next.yml</strong>文件。</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Installed through npm</span></span><br><span class="line">cp node_modules/hexo-theme-next/_config.yml _config.next.yml</span><br><span class="line"><span class="comment"># Installed through Git</span></span><br><span class="line">cp theme/next/_config.yml _config.next.yml</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>个人博客</category>
-        <category>NexT主题</category>
-      </categories>
-      <tags>
-        <tag>NexT主题</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo框架常用内容</title>
     <url>/2020/10/18/hexo-config/</url>
     <content><![CDATA[<h1 id="Hexo常用内容"><a href="#Hexo常用内容" class="headerlink" title="Hexo常用内容"></a>Hexo常用内容</h1><p>在Blog工程中存在一个<code>_config.yml</code>配置文件，里面包含了对该Blog项目的基础性配置，详细配置说明可在<a href="https://hexo.io/docs/configuration#Using-an-Alternate-Config">官网</a>中查询。</p>
@@ -122,55 +85,6 @@
       </categories>
       <tags>
         <tag>Hexo设置</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo框架</title>
-    <url>/2020/10/18/hexo/</url>
-    <content><![CDATA[<h1 id="Hexo博客部署"><a href="#Hexo博客部署" class="headerlink" title="Hexo博客部署"></a>Hexo博客部署</h1><h2 id="基础"><a href="#基础" class="headerlink" title="基础"></a>基础</h2><p>hexo是一个基于NodeJs的，可以快速搭建博客的框架。可以通过设置不同Theme和安装各种插件实现个性化博客站点的功能，它能识别Markdown语言并渲染成静态网页。</p>
-<blockquote>
-<p>Github: <a href="https://github.com/hexojs/hexo">https://github.com/hexojs/hexo</a></p>
-<p>官网：<a href="https://hexo.io/">https://hexo.io/</a></p>
-<p>操作手册：<a href="https://hexo.io/docs/">https://hexo.io/docs/</a></p>
-<p>配置手册: <a href="https://hexo.io/docs/configuration">https://hexo.io/docs/configuration</a></p>
-</blockquote>
-<a id="more"></a>
-
-<p><strong>环境需求</strong></p>
-<blockquote>
-<p>Node.Js 12+</p>
-<p>git</p>
-</blockquote>
-<h2 id="安装与使用"><a href="#安装与使用" class="headerlink" title="安装与使用"></a>安装与使用</h2><h3 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
-
-<h3 id="初始化博客目录"><a href="#初始化博客目录" class="headerlink" title="初始化博客目录"></a>初始化博客目录</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo init myblog</span><br><span class="line"><span class="built_in">cd</span> myblog</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure>
-
-<p>创建博客目录后的文件夹结构如下:</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">.</span><br><span class="line">├── _config.yml</span><br><span class="line">├── package.json</span><br><span class="line">├── scaffolds</span><br><span class="line">├── source</span><br><span class="line">|   ├── _drafts</span><br><span class="line">|   └── _posts</span><br><span class="line">└── themes</span><br></pre></td></tr></table></figure>
-
-<p><strong>_config.yml</strong>是博客的配置文件,<code>source/_posts</code>路径下存储Markdown ,html等文件 ,<code>themes</code>路径下存储各类主题,可以通过修改_config,yml文件中theme字段来更换主题.</p>
-<h3 id="创建post"><a href="#创建post" class="headerlink" title="创建post"></a>创建post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new [layout] --path &lt;dir&gt; &lt;title&gt;</span><br></pre></td></tr></table></figure>
-
-<p>选择 scaffolds文件夹中layout模板(默认post),在dir目录下创建title的markdown文件</p>
-<h3 id="构建"><a href="#构建" class="headerlink" title="构建"></a>构建</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo g(enerate) </span><br></pre></td></tr></table></figure>
-
-<p>构建工程</p>
-<h3 id="本地运行"><a href="#本地运行" class="headerlink" title="本地运行"></a>本地运行</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo s(erver)</span><br></pre></td></tr></table></figure>
-
-<p>默认在<code>http://localhost:4000</code>创建本地服务</p>
-<h3 id="清除缓存"><a href="#清除缓存" class="headerlink" title="清除缓存"></a>清除缓存</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure>
-
-<p>清除缓存和构建文件.</p>
-<h3 id="发布"><a href="#发布" class="headerlink" title="发布"></a>发布</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo d(eploy)</span><br></pre></td></tr></table></figure>
-
-<p>可以在_config.yml文件中设置发布项,静态工程自动部署到对应地址中.</p>
-]]></content>
-      <categories>
-        <category>个人博客</category>
-        <category>Hexo框架</category>
-      </categories>
-      <tags>
-        <tag>Hexo框架</tag>
       </tags>
   </entry>
   <entry>
@@ -245,6 +159,127 @@
 <div class="group-picture"><div class="group-picture-container"><div class="group-picture-row"><div class="group-picture-column" style="width: 50%;"><img src="https://s1.ax1x.com/2020/10/18/0XbLFI.png" alt="0XbLFI.png" style="zoom: 25%;" /></div><div class="group-picture-column" style="width: 50%;"><img src="https://s1.ax1x.com/2020/10/18/0XWSpj.jpg" alt="0XWSpj.jpg" style="zoom: 33%;" /></div></div></div></div>]]></content>
       <tags>
         <tag>主页</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>NexT主题</title>
+    <url>/2020/10/18/NexT/</url>
+    <content><![CDATA[<h1 id="NexT主题"><a href="#NexT主题" class="headerlink" title="NexT主题"></a>NexT主题</h1><p><a href="https://imgchr.com/i/0jtj6H"><img src="https://s1.ax1x.com/2020/10/18/0jtj6H.png" alt="0jtj6H.png" style="zoom: 33%;" /></a></p>
+<h2 id="基础"><a href="#基础" class="headerlink" title="基础"></a>基础</h2><p>NexT是一款基于Hexo静态网页框架的主题，提供4种样式选择，支持多种插件丰富功能。</p>
+<p>github：<a href="https://github.com/next-theme/hexo-theme-next">https://github.com/next-theme/hexo-theme-next</a></p>
+<p>文档地址：<a href="https://theme-next.js.org/">https://theme-next.js.org/</a></p>
+<p>配置说明：<a href="https://theme-next.js.org/docs/theme-settings/">https://theme-next.js.org/docs/theme-settings/</a></p>
+<a id="more"></a>
+
+<p><strong>安装环境</strong></p>
+<blockquote>
+<p>npm 8.0.0+</p>
+<p>hexo 4.0.0+</p>
+</blockquote>
+<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><h3 id="NPM方式"><a href="#NPM方式" class="headerlink" title="NPM方式"></a>NPM方式</h3><p>进入Blog文件夹中，执行</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-theme-next</span><br></pre></td></tr></table></figure>
+
+<h3 id="GIT方式"><a href="#GIT方式" class="headerlink" title="GIT方式"></a>GIT方式</h3><p>进入Blog/themes文件夹中，执行</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git <span class="built_in">clone</span> https://github.com/next-theme/hexo-theme-next</span><br></pre></td></tr></table></figure>
+
+<p>两种方式任选一种，通过npm方式安装的主题目录在<code>node_models</code>文件夹中，后者在<code>themes</code>文件夹中</p>
+<h3 id="激活NexT主题"><a href="#激活NexT主题" class="headerlink" title="激活NexT主题"></a>激活NexT主题</h3><p>在Blog下的config.yml配置文件中设置theme属性：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">theme:</span> <span class="string">next</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="配置设置"><a href="#配置设置" class="headerlink" title="配置设置"></a>配置设置</h2><p>在NexT主题也有一个config.yml配置文件，为了更合理的激活主题的配置，可以将node_models或者themes中对应的NexT主题文件夹下的<strong>config.yml</strong>文件改名为<strong>config.next.yml</strong>，并复制到Blog文件夹下，当需要设置主题的样式和功能是可以更改<strong>config.next.yml</strong>文件。</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Installed through npm</span></span><br><span class="line">cp node_modules/hexo-theme-next/_config.yml _config.next.yml</span><br><span class="line"><span class="comment"># Installed through Git</span></span><br><span class="line">cp theme/next/_config.yml _config.next.yml</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>个人博客</category>
+        <category>NexT主题</category>
+      </categories>
+      <tags>
+        <tag>NexT主题</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo框架</title>
+    <url>/2020/10/18/hexo/</url>
+    <content><![CDATA[<h1 id="Hexo博客部署"><a href="#Hexo博客部署" class="headerlink" title="Hexo博客部署"></a>Hexo博客部署</h1><h2 id="基础"><a href="#基础" class="headerlink" title="基础"></a>基础</h2><p>hexo是一个基于NodeJs的，可以快速搭建博客的框架。可以通过设置不同Theme和安装各种插件实现个性化博客站点的功能，它能识别Markdown语言并渲染成静态网页。</p>
+<blockquote>
+<p>Github: <a href="https://github.com/hexojs/hexo">https://github.com/hexojs/hexo</a></p>
+<p>官网：<a href="https://hexo.io/">https://hexo.io/</a></p>
+<p>操作手册：<a href="https://hexo.io/docs/">https://hexo.io/docs/</a></p>
+<p>配置手册: <a href="https://hexo.io/docs/configuration">https://hexo.io/docs/configuration</a></p>
+</blockquote>
+<a id="more"></a>
+
+<p><strong>环境需求</strong></p>
+<blockquote>
+<p>Node.Js 12+</p>
+<p>git</p>
+</blockquote>
+<h2 id="安装与使用"><a href="#安装与使用" class="headerlink" title="安装与使用"></a>安装与使用</h2><h3 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+
+<h3 id="初始化博客目录"><a href="#初始化博客目录" class="headerlink" title="初始化博客目录"></a>初始化博客目录</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo init myblog</span><br><span class="line"><span class="built_in">cd</span> myblog</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure>
+
+<p>创建博客目录后的文件夹结构如下:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">.</span><br><span class="line">├── _config.yml</span><br><span class="line">├── package.json</span><br><span class="line">├── scaffolds</span><br><span class="line">├── source</span><br><span class="line">|   ├── _drafts</span><br><span class="line">|   └── _posts</span><br><span class="line">└── themes</span><br></pre></td></tr></table></figure>
+
+<p><strong>_config.yml</strong>是博客的配置文件,<code>source/_posts</code>路径下存储Markdown ,html等文件 ,<code>themes</code>路径下存储各类主题,可以通过修改_config,yml文件中theme字段来更换主题.</p>
+<h3 id="创建post"><a href="#创建post" class="headerlink" title="创建post"></a>创建post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo new [layout] --path &lt;dir&gt; &lt;title&gt;</span><br></pre></td></tr></table></figure>
+
+<p>选择 scaffolds文件夹中layout模板(默认post),在dir目录下创建title的markdown文件</p>
+<h3 id="构建"><a href="#构建" class="headerlink" title="构建"></a>构建</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo g(enerate) </span><br></pre></td></tr></table></figure>
+
+<p>构建工程</p>
+<h3 id="本地运行"><a href="#本地运行" class="headerlink" title="本地运行"></a>本地运行</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo s(erver)</span><br></pre></td></tr></table></figure>
+
+<p>默认在<code>http://localhost:4000</code>创建本地服务</p>
+<h3 id="清除缓存"><a href="#清除缓存" class="headerlink" title="清除缓存"></a>清除缓存</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br></pre></td></tr></table></figure>
+
+<p>清除缓存和构建文件.</p>
+<h3 id="发布"><a href="#发布" class="headerlink" title="发布"></a>发布</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo d(eploy)</span><br></pre></td></tr></table></figure>
+
+<p>可以在_config.yml文件中设置发布项,静态工程自动部署到对应地址中.</p>
+]]></content>
+      <categories>
+        <category>个人博客</category>
+        <category>Hexo框架</category>
+      </categories>
+      <tags>
+        <tag>Hexo框架</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>JVM内存区域</title>
+    <url>/2020/10/21/jvm-memory/</url>
+    <content><![CDATA[<h1 id="JVM内存区域"><a href="#JVM内存区域" class="headerlink" title="JVM内存区域"></a>JVM内存区域</h1><p><a href="https://imgchr.com/i/BP2ZcT"><img src="https://s1.ax1x.com/2020/10/21/BP2ZcT.png" alt="BP2ZcT.png"></a></p>
+<h2 id="内存划分"><a href="#内存划分" class="headerlink" title="内存划分"></a>内存划分</h2><p>JVM虚拟机在运行时将内存空间划分为几个区域，这些区域有不同的<strong>功能</strong>、<strong>创建时间</strong>和<strong>销毁时间</strong>。虚拟机内存划分只是从功能上进行的分割，不同的虚拟机的版本有不同的方式实现方式。</p>
+<a id="more"></a>
+
+<ul>
+<li><p><strong>程序计数器（PC）</strong>：存储各个线程运行的当前指令的地址。</p>
+</li>
+<li><p><strong>虚拟机栈（Stack）</strong>：每个线程在运行时都会创建自己的栈，进入每个方法时创建一个栈帧压入栈中，用于保存当前方法内的<strong>局部变量</strong>、<strong>操作数栈</strong>、<strong>方法出口地址</strong>等。</p>
+</li>
+<li><p><strong>堆（Heap）</strong>：虚拟机中空间最大的内存区域，<em>各个线程共享的区域，存储虚拟机中绝大数对象</em>的。为了更方便的管理这块区域，各种垃圾回收算法会将这个区划分为更细致的区域，例如<strong>新生代</strong>、<strong>老年代</strong>等。</p>
+</li>
+<li><p><strong>方法区（Method Area）</strong>：各个类被加载后的==类信息、常量、静态变量、方法代码==等内容存储的空间。</p>
+</li>
+<li><p><strong>常量池（Constant Pool）</strong>：方法区中存储常量的信息，这里的常量不仅仅指的是Java语言层面的常量，还有一些字面量和符号引用。常量池可以在运行时添加，例如String的intern()方法。</p>
+</li>
+<li><p><strong>直接内存（Direct Memory）</strong>：一块虚拟机以外的内存空间，是宿主的内存空间。在NIO场景中运用，提高虚拟机与外界数据交互的效率。</p>
+</li>
+<li><p>**本地方法栈（Native Stack)**：虚拟机在调用本地方法时调用的栈空间。</p>
+</li>
+</ul>
+<h2 id="虚拟机栈"><a href="#虚拟机栈" class="headerlink" title="虚拟机栈"></a>虚拟机栈</h2><p>。。。</p>
+<h2 id="堆"><a href="#堆" class="headerlink" title="堆"></a>堆</h2><p>。。。</p>
+<h2 id="方法区"><a href="#方法区" class="headerlink" title="方法区"></a>方法区</h2><p>。。。</p>
+]]></content>
+      <categories>
+        <category>JVM</category>
+        <category>内存模型</category>
+      </categories>
+      <tags>
+        <tag>JVM内存区域</tag>
       </tags>
   </entry>
 </search>
