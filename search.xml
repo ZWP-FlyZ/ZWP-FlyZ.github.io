@@ -88,80 +88,6 @@
       </tags>
   </entry>
   <entry>
-    <title>欢迎来到FlyZ的知识空间</title>
-    <url>/2020/10/17/index/</url>
-    <content><![CDATA[<h1 id="x1f31f-简介-x1f31f"><a href="#x1f31f-简介-x1f31f" class="headerlink" title="&#x1f31f;简介&#x1f31f;"></a><span class="emoji" alias="star2" style="" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f31f.png?v8">&#x1f31f;</span>简介<span class="emoji" alias="star2" style="" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f31f.png?v8">&#x1f31f;</span></h1><p>在这里我将分享我的技术学习和个人成长的经历。有各种学习笔记也有前后端的开发经历，期待与各位进行交流！</p>
-<p>文档库发布Github与Gitee中，可选择任意地址查阅</p>
-<blockquote>
-<p>Github: <a href="https://zwp-flyz.github.io/">https://zwp-flyz.github.io/</a></p>
-<p>Gitee: <a href="https://zwp-flyz.gitee.io/">https://zwp-flyz.gitee.io/</a></p>
-</blockquote>
-<h1 id="内容结构"><a href="#内容结构" class="headerlink" title="内容结构"></a>内容结构</h1><p>该文档库规定以下<strong>分类</strong>，在以后内容扩充过程中逐渐完善，具体的涉及内容用<strong>标签</strong>定位。</p>
-<table>
-<thead>
-<tr>
-<th align="center">类别</th>
-<th>分类</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">个人博客</td>
-<td>Hexo框架、NexT主题…</td>
-</tr>
-<tr>
-<td align="center">JVM</td>
-<td>GC、内存模型、字节码…</td>
-</tr>
-<tr>
-<td align="center">Java</td>
-<td>Lambda表达式、Java IO、Stream流操作、线程、线程池…</td>
-</tr>
-<tr>
-<td align="center">Spring</td>
-<td>Spring Core、Spring AOP、Spring MVC、Spring Boot…</td>
-</tr>
-<tr>
-<td align="center">Web技术</td>
-<td>Web容器、Servlet…</td>
-</tr>
-<tr>
-<td align="center">缓存</td>
-<td>Redis…</td>
-</tr>
-<tr>
-<td align="center">持久层框架</td>
-<td>MySQL、Mybatis、Druid…</td>
-</tr>
-<tr>
-<td align="center">中间件</td>
-<td>消息队列…</td>
-</tr>
-<tr>
-<td align="center">分布式与微服务</td>
-<td>分布式缓存，读写一致性分析…</td>
-</tr>
-<tr>
-<td align="center">运维与测试技术</td>
-<td>Nginx、YApi</td>
-</tr>
-<tr>
-<td align="center">前端技术</td>
-<td>Vue、React、ElementUI、AntD…</td>
-</tr>
-<tr>
-<td align="center">技术实践</td>
-<td>Travel Memories，秒杀系统…</td>
-</tr>
-</tbody></table>
-<a id="more"></a>
-
-<h1 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h1><p>以下图标是为本仓库设计的favicon和logo，<font color=red><strong>请勿用于商业用途</strong></font>。</p>
-<div class="group-picture"><div class="group-picture-container"><div class="group-picture-row"><div class="group-picture-column" style="width: 50%;"><img src="https://s1.ax1x.com/2020/10/18/0XbLFI.png" alt="0XbLFI.png" style="zoom: 25%;" /></div><div class="group-picture-column" style="width: 50%;"><img src="https://s1.ax1x.com/2020/10/18/0XWSpj.jpg" alt="0XWSpj.jpg" style="zoom: 33%;" /></div></div></div></div>]]></content>
-      <tags>
-        <tag>主页</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>NexT主题</title>
     <url>/2020/10/18/NexT/</url>
     <content><![CDATA[<h1 id="NexT主题"><a href="#NexT主题" class="headerlink" title="NexT主题"></a>NexT主题</h1><p><a href="https://imgchr.com/i/0jtj6H"><img src="https://s1.ax1x.com/2020/10/18/0jtj6H.png" alt="0jtj6H.png" style="zoom: 33%;" /></a></p>
@@ -248,6 +174,80 @@
       </tags>
   </entry>
   <entry>
+    <title>欢迎来到FlyZ的知识空间</title>
+    <url>/2020/10/17/index/</url>
+    <content><![CDATA[<h1 id="x1f31f-简介-x1f31f"><a href="#x1f31f-简介-x1f31f" class="headerlink" title="&#x1f31f;简介&#x1f31f;"></a><span class="emoji" alias="star2" style="" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f31f.png?v8">&#x1f31f;</span>简介<span class="emoji" alias="star2" style="" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f31f.png?v8">&#x1f31f;</span></h1><p>在这里我将分享我的技术学习和个人成长的经历。有各种学习笔记也有前后端的开发经历，期待与各位进行交流！</p>
+<p>文档库发布Github与Gitee中，可选择任意地址查阅</p>
+<blockquote>
+<p>Github: <a href="https://zwp-flyz.github.io/">https://zwp-flyz.github.io/</a></p>
+<p>Gitee: <a href="https://zwp-flyz.gitee.io/">https://zwp-flyz.gitee.io/</a></p>
+</blockquote>
+<h1 id="内容结构"><a href="#内容结构" class="headerlink" title="内容结构"></a>内容结构</h1><p>该文档库规定以下<strong>分类</strong>，在以后内容扩充过程中逐渐完善，具体的涉及内容用<strong>标签</strong>定位。</p>
+<table>
+<thead>
+<tr>
+<th align="center">类别</th>
+<th>分类</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">个人博客</td>
+<td>Hexo框架、NexT主题…</td>
+</tr>
+<tr>
+<td align="center">JVM</td>
+<td>GC、内存模型、字节码…</td>
+</tr>
+<tr>
+<td align="center">Java</td>
+<td>Lambda表达式、Java IO、Stream流操作、线程、线程池…</td>
+</tr>
+<tr>
+<td align="center">Spring</td>
+<td>Spring Core、Spring AOP、Spring MVC、Spring Boot…</td>
+</tr>
+<tr>
+<td align="center">Web技术</td>
+<td>Web容器、Servlet…</td>
+</tr>
+<tr>
+<td align="center">缓存</td>
+<td>Redis…</td>
+</tr>
+<tr>
+<td align="center">持久层框架</td>
+<td>MySQL、Mybatis、Druid…</td>
+</tr>
+<tr>
+<td align="center">中间件</td>
+<td>消息队列…</td>
+</tr>
+<tr>
+<td align="center">分布式与微服务</td>
+<td>分布式缓存，读写一致性分析…</td>
+</tr>
+<tr>
+<td align="center">运维与测试技术</td>
+<td>Nginx、YApi</td>
+</tr>
+<tr>
+<td align="center">前端技术</td>
+<td>Vue、React、ElementUI、AntD…</td>
+</tr>
+<tr>
+<td align="center">技术实践</td>
+<td>Travel Memories，秒杀系统…</td>
+</tr>
+</tbody></table>
+<a id="more"></a>
+
+<h1 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h1><p>以下图标是为本仓库设计的favicon和logo，<font color=red><strong>请勿用于商业用途</strong></font>。</p>
+<div class="group-picture"><div class="group-picture-container"><div class="group-picture-row"><div class="group-picture-column" style="width: 50%;"><img src="https://s1.ax1x.com/2020/10/18/0XbLFI.png" alt="0XbLFI.png" style="zoom: 25%;" /></div><div class="group-picture-column" style="width: 50%;"><img src="https://s1.ax1x.com/2020/10/18/0XWSpj.jpg" alt="0XWSpj.jpg" style="zoom: 33%;" /></div></div></div></div>]]></content>
+      <tags>
+        <tag>主页</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>JVM内存区域</title>
     <url>/2020/10/21/jvm-memory/</url>
     <content><![CDATA[<h1 id="JVM内存区域"><a href="#JVM内存区域" class="headerlink" title="JVM内存区域"></a>JVM内存区域</h1><p><a href="https://imgchr.com/i/BP2ZcT"><img src="https://s1.ax1x.com/2020/10/21/BP2ZcT.png" alt="BP2ZcT.png"></a></p>
@@ -270,8 +270,11 @@
 <li><p>**本地方法栈（Native Stack)**：虚拟机在调用本地方法时调用的栈空间。</p>
 </li>
 </ul>
-<h2 id="虚拟机栈"><a href="#虚拟机栈" class="headerlink" title="虚拟机栈"></a>虚拟机栈</h2><p>。。。</p>
-<h2 id="堆"><a href="#堆" class="headerlink" title="堆"></a>堆</h2><p>。。。</p>
+<h2 id="虚拟机栈"><a href="#虚拟机栈" class="headerlink" title="虚拟机栈"></a>虚拟机栈</h2><p>虚拟机使用栈存储一个线程的<strong>方法调用链</strong>。栈内有若干栈帧，存储着调用链中方法的信息。一个栈帧中存储以下信息：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">  |                |</span><br><span class="line">--+----------------+</span><br><span class="line">  |    OP Stack    |</span><br><span class="line">  |----------------|</span><br><span class="line">  |     (Info)     | </span><br><span class="line">  |   Method Link  |</span><br><span class="line">  |   Return Addr  |</span><br><span class="line">  |    Ext Info    |  </span><br><span class="line">  |----------------| </span><br><span class="line">  | Local Variable | </span><br><span class="line">  |      Table     |   </span><br><span class="line">--+----------------+</span><br><span class="line">  |                |</span><br></pre></td></tr></table></figure>
+
+<h3 id="操作数栈"><a href="#操作数栈" class="headerlink" title="操作数栈"></a>操作数栈</h3><p>JVM使用操作数栈暂存字节码指令执行过程中的数据</p>
+<h3 id="方法动态连接"><a href="#方法动态连接" class="headerlink" title="方法动态连接"></a>方法动态连接</h3><h3 id="方法返回地址"><a href="#方法返回地址" class="headerlink" title="方法返回地址"></a>方法返回地址</h3><h3 id="局部变量表"><a href="#局部变量表" class="headerlink" title="局部变量表"></a>局部变量表</h3><h2 id="堆"><a href="#堆" class="headerlink" title="堆"></a>堆</h2><p>。。。</p>
 <h2 id="方法区"><a href="#方法区" class="headerlink" title="方法区"></a>方法区</h2><p>。。。</p>
 ]]></content>
       <categories>
